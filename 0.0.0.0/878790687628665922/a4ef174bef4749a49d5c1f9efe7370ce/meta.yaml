@@ -1,0 +1,15 @@
+artifact_uri: /home/runner/work/mlopsproject/mlopsproject/0.0.0.0/878790687628665922/a4ef174bef4749a49d5c1f9efe7370ce/artifacts
+end_time: 1702227640218
+entry_point_name: ''
+experiment_id: '878790687628665922'
+lifecycle_stage: active
+run_id: a4ef174bef4749a49d5c1f9efe7370ce
+run_name: indecisive-crab-629
+run_uuid: a4ef174bef4749a49d5c1f9efe7370ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702227638084
+status: 3
+tags: []
+user_id: runner
