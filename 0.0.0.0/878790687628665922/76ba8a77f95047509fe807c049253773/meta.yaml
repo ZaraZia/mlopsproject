@@ -1,0 +1,15 @@
+artifact_uri: /home/runner/work/mlopsproject/mlopsproject/0.0.0.0/878790687628665922/76ba8a77f95047509fe807c049253773/artifacts
+end_time: 1702227681537
+entry_point_name: ''
+experiment_id: '878790687628665922'
+lifecycle_stage: active
+run_id: 76ba8a77f95047509fe807c049253773
+run_name: adaptable-pig-14
+run_uuid: 76ba8a77f95047509fe807c049253773
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702227679101
+status: 3
+tags: []
+user_id: runner
