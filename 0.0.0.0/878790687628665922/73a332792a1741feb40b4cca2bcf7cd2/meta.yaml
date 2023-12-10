@@ -1,0 +1,15 @@
+artifact_uri: /home/runner/work/mlopsproject/mlopsproject/0.0.0.0/878790687628665922/73a332792a1741feb40b4cca2bcf7cd2/artifacts
+end_time: 1702227726515
+entry_point_name: ''
+experiment_id: '878790687628665922'
+lifecycle_stage: active
+run_id: 73a332792a1741feb40b4cca2bcf7cd2
+run_name: wise-stag-661
+run_uuid: 73a332792a1741feb40b4cca2bcf7cd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702227723909
+status: 3
+tags: []
+user_id: runner
