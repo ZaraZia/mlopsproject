@@ -27,7 +27,7 @@ jobs:
         MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
       run: python main.py
 
-    - name: Commit and push changes
+    - name: Commit and push 
       run: |
         git config --global user.name 'ZaraZia'
         git config --global user.email 'zarazia01@gmail.com'
@@ -36,4 +36,5 @@ jobs:
         git merge origin/modelTrack --allow-unrelated-histories -m "Merge remote-tracking branch 'origin/modelTrack'"
         git add -A
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update MLflow tracking results" && git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git modelTrack)
-
+        git commit -m "Update MLflow tracking results"
+        git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git modelTrack
