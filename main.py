@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_iris
 
 # Set the MLflow tracking URI to your MLflow server
-mlflow.set_tracking_uri("https://3bde-119-73-124-82.ngrok-free.app")
+mlflow.set_tracking_uri("https://69fe-119-73-124-82.ngrok-free.app")
 
 def main():
     # Load iris dataset
