@@ -33,4 +33,4 @@ jobs:
         git config --global user.email 'zarazia01@gmail.com'
         git add -A
         git commit -m "Update MLflow tracking results"
-        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/ZaraZia/mlopsproject.git
+        git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git
