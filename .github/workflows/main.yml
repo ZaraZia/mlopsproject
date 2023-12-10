@@ -37,3 +37,14 @@ jobs:
         git add -A
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update MLflow tracking results" && git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git modelTrack)
         git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git modelTrack
+
+    - name: Commit and push changes on git
+      run: |
+        git config --global user.name 'ZaraZia'
+        git config --global user.email 'zarazia01@gmail.com'
+        git fetch
+        git checkout modelTrack || git checkout -b modelTrack
+        git merge origin/modelTrack --allow-unrelated-histories -m "Merge remote-tracking branch 'origin/modelTrack'"
+        git add -A
+        git commit -m "Update MLflow tracking results"
+        git push https://${{ secrets.TOKEN }}@github.com/ZaraZia/mlopsproject.git modelTrack
