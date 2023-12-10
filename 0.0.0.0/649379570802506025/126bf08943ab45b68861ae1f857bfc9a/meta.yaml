@@ -1,0 +1,15 @@
+artifact_uri: /home/runner/work/mlopsproject/mlopsproject/0.0.0.0/649379570802506025/126bf08943ab45b68861ae1f857bfc9a/artifacts
+end_time: 1702228752044
+entry_point_name: ''
+experiment_id: '649379570802506025'
+lifecycle_stage: active
+run_id: 126bf08943ab45b68861ae1f857bfc9a
+run_name: merciful-sow-969
+run_uuid: 126bf08943ab45b68861ae1f857bfc9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702228750047
+status: 3
+tags: []
+user_id: runner
