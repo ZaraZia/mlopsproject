@@ -5,6 +5,9 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_iris
 
+# Set the MLflow tracking URI to your MLflow server
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
 def main():
     # Load iris dataset
     data = load_iris()
