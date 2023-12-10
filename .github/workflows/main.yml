@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: Check out repository code
       uses: actions/checkout@v3
+      with:
+        persist-credentials: false
 
     - name: Set up Python
       uses: actions/setup-python@v3
@@ -31,4 +33,4 @@ jobs:
         git config --global user.email 'zarazia01@gmail.com'
         git add -A
         git commit -m "Update MLflow tracking results"
-        git push
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/ZaraZia/mlopsproject.git
